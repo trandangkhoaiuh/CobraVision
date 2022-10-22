@@ -60,7 +60,6 @@
     <Compile Include="Model\CameraProcessing.cs" />
     <Compile Include="Model\MxComponent.cs" />
     <Compile Include="Model\PLCProcessing.cs" />
-    <Compile Include="Model\testClass.cs" />
     <Compile Include="View\FormHome.cs">
       <SubType>Form</SubType>
     </Compile>
