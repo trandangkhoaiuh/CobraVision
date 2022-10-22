@@ -13,7 +13,7 @@ namespace Eruka_final
 {
     public partial class FormHome : Form
     {
-        MxComponent PLC = new MxComponent(3);
+        readonly MxComponent PLC = new MxComponent(3);
 
         public FormHome()
         {
@@ -83,18 +83,13 @@ namespace Eruka_final
             }
         }
 
-        private void btnLogoCobra_Click(object sender, EventArgs e)
+        private void BtnLogoCobra_Click(object sender, EventArgs e)
         {
-            var isDone = PLC.GetDevice("D200", out int D200);
-            MessageBox.Show(D200.ToString());
+            //var isDone = PLC.GetDevice("D200", out int D200); test
         }
 
         
 
-        private void btnPanelstatus_Click(object sender, EventArgs e)
-        {
-
-        }
 
         
     }

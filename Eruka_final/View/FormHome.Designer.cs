@@ -160,7 +160,7 @@ namespace Eruka_final
             this.btnLogoCobra.Padding = new System.Windows.Forms.Padding(5);
             this.btnLogoCobra.Size = new System.Drawing.Size(62, 28);
             this.btnLogoCobra.TabIndex = 0;
-            this.btnLogoCobra.Click += new System.EventHandler(this.btnLogoCobra_Click);
+            this.btnLogoCobra.Click += new System.EventHandler(this.BtnLogoCobra_Click);
             
             // 
             // layoutMenu
@@ -829,7 +829,6 @@ namespace Eruka_final
             this.btnPanelstatus.Text = "Huhu";
             this.btnPanelstatus.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnPanelstatus.UseVisualStyleBackColor = false;
-            this.btnPanelstatus.Click += new System.EventHandler(this.btnPanelstatus_Click);
             // 
             // layoutHeader
             // 
