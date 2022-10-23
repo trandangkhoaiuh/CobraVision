@@ -37,3 +37,22 @@ D:\Các môn học\đồ án_Anh Khoa\CobraVisionV1\Eruka_final\obj\Debug\CobraV
 D:\Các môn học\đồ án_Anh Khoa\CobraVisionV1\Eruka_final\obj\Debug\Eruka_final.exe
 D:\Các môn học\đồ án_Anh Khoa\CobraVisionV1\Eruka_final\obj\Debug\Eruka_final.pdb
 D:\Các môn học\đồ án_Anh Khoa\CobraVisionV1\Eruka_final\bin\Debug\McProtocol.dll
+D:\CobraVisionV2\CobraVision\Eruka_final\bin\Debug\Eruka_final.exe.config
+D:\CobraVisionV2\CobraVision\Eruka_final\bin\Debug\Eruka_final.exe
+D:\CobraVisionV2\CobraVision\Eruka_final\bin\Debug\Eruka_final.pdb
+D:\CobraVisionV2\CobraVision\Eruka_final\bin\Debug\Cognex.InSight.Controls.Display.dll
+D:\CobraVisionV2\CobraVision\Eruka_final\bin\Debug\Cognex.InSight.dll
+D:\CobraVisionV2\CobraVision\Eruka_final\bin\Debug\SuperSimpleTcp.dll
+D:\CobraVisionV2\CobraVision\Eruka_final\bin\Debug\Cognex.InSight.xml
+D:\CobraVisionV2\CobraVision\Eruka_final\bin\Debug\Cognex.InSight.Controls.Display.xml
+D:\CobraVisionV2\CobraVision\Eruka_final\obj\Debug\CobraVision.csproj.AssemblyReference.cache
+D:\CobraVisionV2\CobraVision\Eruka_final\obj\Debug\CobraVision.csproj.SuggestedBindingRedirects.cache
+D:\CobraVisionV2\CobraVision\Eruka_final\obj\Debug\Eruka_final.Properties.Resources.resources
+D:\CobraVisionV2\CobraVision\Eruka_final\obj\Debug\Eruka_final.FormHome.resources
+D:\CobraVisionV2\CobraVision\Eruka_final\obj\Debug\Eruka_final.FormLogin.resources
+D:\CobraVisionV2\CobraVision\Eruka_final\obj\Debug\Eruka_final.FormSetting.resources
+D:\CobraVisionV2\CobraVision\Eruka_final\obj\Debug\CobraVision.csproj.GenerateResource.cache
+D:\CobraVisionV2\CobraVision\Eruka_final\obj\Debug\CobraVision.csproj.CoreCompileInputs.cache
+D:\CobraVisionV2\CobraVision\Eruka_final\obj\Debug\CobraVision.csproj.CopyComplete
+D:\CobraVisionV2\CobraVision\Eruka_final\obj\Debug\Eruka_final.exe
+D:\CobraVisionV2\CobraVision\Eruka_final\obj\Debug\Eruka_final.pdb

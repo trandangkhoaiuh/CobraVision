@@ -183,6 +183,16 @@ namespace Eruka_final.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap PLC_CONNECTED {
+            get {
+                object obj = ResourceManager.GetObject("PLC_CONNECTED", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap themeLogin {
             get {
                 object obj = ResourceManager.GetObject("themeLogin", resourceCulture);

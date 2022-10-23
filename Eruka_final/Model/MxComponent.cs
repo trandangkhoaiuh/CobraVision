@@ -41,7 +41,7 @@ namespace Eruka_final.Model
             if (!IsOnline())
             {
                 Open(iLogicalStationNumber);
-            }
+             }
 
             timer.Enabled = true;
         }

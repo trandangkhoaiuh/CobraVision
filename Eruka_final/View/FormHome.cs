@@ -14,6 +14,7 @@ namespace Eruka_final
     public partial class FormHome : Form
     {
         readonly MxComponent PLC = new MxComponent(3);
+        readonly CameraProcessing Cam=new CameraProcessing();
 
         public FormHome()
         {
@@ -21,14 +22,13 @@ namespace Eruka_final
             SettingColorFormStartup();
             ConnectDevice();
         }
-
         private void ConnectDevice()
         {
+            //PLC 
             timerCheckStautusDevice.Enabled = true;
             timerCheckStautusDevice.Interval = 500;
             timerCheckStautusDevice.Start();
         }
-
         private void SettingColorFormStartup()
         {
             var backColor = Color.FromArgb(42, 57, 78);
@@ -61,35 +61,53 @@ namespace Eruka_final
                 btn.FlatAppearance.BorderSize = 0;
             }
         }
-
         private void BtnLogoMit_Click(object sender, EventArgs e)
         {
             this.Close();
             //TODO: Dispose all connect
         }
-
         private void TimerCheckStautusDevice_Tick(object sender, EventArgs e)
         {
             if (PLC.IsOnline())
             {
                 btnPLCStatus.Text = "CONNECTED";
-                btnPLCStatus.Image = Eruka_final.Properties.Resources.connected_plc;
+                btnPLCStatus.Image = Eruka_final.Properties.Resources.PLC_CONNECTED;
             }
             else
             {
                 btnPLCStatus.Text = "DISCONNECTED";
-               
                 btnPLCStatus.Image = Eruka_final.Properties.Resources.disconected_plc;
             }
+            if(Cam.StartCam())
+            {
+                SetLabelText(btnCamstatus, "CONNECTED");
+            } 
+            else
+            {
+                SetLabelText(btnCamstatus, "DISCONNECTED");
+            }    
         }
 
         private void BtnLogoCobra_Click(object sender, EventArgs e)
         {
-            //var isDone = PLC.GetDevice("D200", out int D200); test
+        //    var isDone = PLC.GetDevice("D200", out int D200);
+        //    MessageBox.Show(Convert.ToString(D200));
         }
+        private void SetLabelText(Button label, string text)
+        {
+            if (label.InvokeRequired)
+            {
+                this.BeginInvoke(new Action(() =>
+                {
+                    label.Text = text;
+                }));
 
-        
-
+            }
+            else
+            {
+                label.Text = text;
+            }
+        }
 
         
     }

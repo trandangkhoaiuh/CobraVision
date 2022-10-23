@@ -161,7 +161,6 @@ namespace Eruka_final
             this.btnLogoCobra.Size = new System.Drawing.Size(62, 28);
             this.btnLogoCobra.TabIndex = 0;
             this.btnLogoCobra.Click += new System.EventHandler(this.BtnLogoCobra_Click);
-            
             // 
             // layoutMenu
             // 
@@ -835,7 +834,7 @@ namespace Eruka_final
             this.layoutHeader.ColumnCount = 3;
             this.layoutHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 82.98193F));
             this.layoutHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.01807F));
-            this.layoutHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 118F));
+            this.layoutHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 120F));
             this.layoutHeader.Controls.Add(this.panelUserAvatar, 2, 0);
             this.layoutHeader.Controls.Add(this.lblName, 1, 0);
             this.layoutHeader.Controls.Add(this.lblUser, 1, 1);
@@ -854,10 +853,10 @@ namespace Eruka_final
             this.panelUserAvatar.BackgroundImage = global::Eruka_final.Properties.Resources.userManger;
             this.panelUserAvatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panelUserAvatar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelUserAvatar.Location = new System.Drawing.Point(547, 3);
+            this.panelUserAvatar.Location = new System.Drawing.Point(545, 3);
             this.panelUserAvatar.Name = "panelUserAvatar";
             this.layoutHeader.SetRowSpan(this.panelUserAvatar, 2);
-            this.panelUserAvatar.Size = new System.Drawing.Size(113, 28);
+            this.panelUserAvatar.Size = new System.Drawing.Size(115, 28);
             this.panelUserAvatar.TabIndex = 0;
             // 
             // lblName
@@ -866,7 +865,7 @@ namespace Eruka_final
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblName.Location = new System.Drawing.Point(482, 0);
+            this.lblName.Location = new System.Drawing.Point(480, 0);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(59, 17);
             this.lblName.TabIndex = 1;
@@ -879,7 +878,7 @@ namespace Eruka_final
             this.lblUser.AutoSize = true;
             this.lblUser.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblUser.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblUser.Location = new System.Drawing.Point(472, 17);
+            this.lblUser.Location = new System.Drawing.Point(470, 17);
             this.lblUser.Name = "lblUser";
             this.lblUser.Size = new System.Drawing.Size(69, 17);
             this.lblUser.TabIndex = 1;
