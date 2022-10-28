@@ -84,6 +84,8 @@ namespace Eruka_final
             this.lblUser = new System.Windows.Forms.Label();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.timerCheckStautusDevice = new System.Windows.Forms.Timer(this.components);
+            this.btnEC2 = new System.Windows.Forms.Button();
+            this.btnEC2Value = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.layoutLogo.SuspendLayout();
             this.layoutMenu.SuspendLayout();
@@ -206,34 +208,36 @@ namespace Eruka_final
             this.layoutMenu.Controls.Add(this.btnScrewHoleValue, 1, 16);
             this.layoutMenu.Controls.Add(this.btnScrewHole1, 0, 18);
             this.layoutMenu.Controls.Add(this.btnScrewHole1Value, 1, 18);
+            this.layoutMenu.Controls.Add(this.btnEC2, 0, 14);
+            this.layoutMenu.Controls.Add(this.btnEC2Value, 1, 14);
             this.layoutMenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutMenu.Location = new System.Drawing.Point(3, 43);
             this.layoutMenu.Name = "layoutMenu";
             this.layoutMenu.RowCount = 24;
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.011717F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.001302F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.60389F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 0.9559879F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
             this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 0F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.52549F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
             this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 0F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 0F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
-            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.736158F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
+            this.layoutMenu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.521822F));
             this.layoutMenu.Size = new System.Drawing.Size(202, 454);
             this.layoutMenu.TabIndex = 1;
             // 
@@ -249,7 +253,7 @@ namespace Eruka_final
             this.btnStatus.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnStatus.Location = new System.Drawing.Point(3, 3);
             this.btnStatus.Name = "btnStatus";
-            this.btnStatus.Size = new System.Drawing.Size(196, 34);
+            this.btnStatus.Size = new System.Drawing.Size(196, 33);
             this.btnStatus.TabIndex = 0;
             this.btnStatus.Text = "STATUS";
             this.btnStatus.UseVisualStyleBackColor = true;
@@ -261,9 +265,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnInductor.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnInductor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnInductor.Location = new System.Drawing.Point(3, 47);
+            this.btnInductor.Location = new System.Drawing.Point(3, 46);
             this.btnInductor.Name = "btnInductor";
-            this.btnInductor.Size = new System.Drawing.Size(90, 15);
+            this.btnInductor.Size = new System.Drawing.Size(90, 14);
             this.btnInductor.TabIndex = 1;
             this.btnInductor.Text = "Inductor";
             this.btnInductor.UseVisualStyleBackColor = true;
@@ -275,9 +279,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCapacitor_680uF.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnCapacitor_680uF.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCapacitor_680uF.Location = new System.Drawing.Point(3, 68);
+            this.btnCapacitor_680uF.Location = new System.Drawing.Point(3, 66);
             this.btnCapacitor_680uF.Name = "btnCapacitor_680uF";
-            this.btnCapacitor_680uF.Size = new System.Drawing.Size(90, 15);
+            this.btnCapacitor_680uF.Size = new System.Drawing.Size(90, 14);
             this.btnCapacitor_680uF.TabIndex = 1;
             this.btnCapacitor_680uF.Text = "Capacitor-680uF";
             this.btnCapacitor_680uF.UseVisualStyleBackColor = true;
@@ -289,9 +293,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLed.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnLed.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnLed.Location = new System.Drawing.Point(3, 89);
+            this.btnLed.Location = new System.Drawing.Point(3, 86);
             this.btnLed.Name = "btnLed";
-            this.btnLed.Size = new System.Drawing.Size(90, 15);
+            this.btnLed.Size = new System.Drawing.Size(90, 14);
             this.btnLed.TabIndex = 1;
             this.btnLed.Text = "Led";
             this.btnLed.UseVisualStyleBackColor = true;
@@ -303,9 +307,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDiode.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnDiode.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnDiode.Location = new System.Drawing.Point(3, 110);
+            this.btnDiode.Location = new System.Drawing.Point(3, 106);
             this.btnDiode.Name = "btnDiode";
-            this.btnDiode.Size = new System.Drawing.Size(90, 15);
+            this.btnDiode.Size = new System.Drawing.Size(90, 14);
             this.btnDiode.TabIndex = 1;
             this.btnDiode.Text = "Diode";
             this.btnDiode.UseVisualStyleBackColor = true;
@@ -317,9 +321,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnJacks.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnJacks.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnJacks.Location = new System.Drawing.Point(3, 131);
+            this.btnJacks.Location = new System.Drawing.Point(3, 126);
             this.btnJacks.Name = "btnJacks";
-            this.btnJacks.Size = new System.Drawing.Size(90, 15);
+            this.btnJacks.Size = new System.Drawing.Size(90, 14);
             this.btnJacks.TabIndex = 1;
             this.btnJacks.Text = "Jacks";
             this.btnJacks.UseVisualStyleBackColor = true;
@@ -331,9 +335,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnQ1.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnQ1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnQ1.Location = new System.Drawing.Point(3, 152);
+            this.btnQ1.Location = new System.Drawing.Point(3, 146);
             this.btnQ1.Name = "btnQ1";
-            this.btnQ1.Size = new System.Drawing.Size(90, 15);
+            this.btnQ1.Size = new System.Drawing.Size(90, 14);
             this.btnQ1.TabIndex = 1;
             this.btnQ1.Text = "Q1";
             this.btnQ1.UseVisualStyleBackColor = true;
@@ -345,9 +349,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnC1.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnC1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnC1.Location = new System.Drawing.Point(3, 173);
+            this.btnC1.Location = new System.Drawing.Point(3, 166);
             this.btnC1.Name = "btnC1";
-            this.btnC1.Size = new System.Drawing.Size(90, 15);
+            this.btnC1.Size = new System.Drawing.Size(90, 14);
             this.btnC1.TabIndex = 1;
             this.btnC1.Text = "C1";
             this.btnC1.UseVisualStyleBackColor = true;
@@ -359,9 +363,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnF2.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnF2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnF2.Location = new System.Drawing.Point(3, 194);
+            this.btnF2.Location = new System.Drawing.Point(3, 186);
             this.btnF2.Name = "btnF2";
-            this.btnF2.Size = new System.Drawing.Size(90, 15);
+            this.btnF2.Size = new System.Drawing.Size(90, 14);
             this.btnF2.TabIndex = 1;
             this.btnF2.Text = "F2";
             this.btnF2.UseVisualStyleBackColor = true;
@@ -373,9 +377,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnInductorValue.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnInductorValue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnInductorValue.Location = new System.Drawing.Point(99, 47);
+            this.btnInductorValue.Location = new System.Drawing.Point(99, 46);
             this.btnInductorValue.Name = "btnInductorValue";
-            this.btnInductorValue.Size = new System.Drawing.Size(100, 15);
+            this.btnInductorValue.Size = new System.Drawing.Size(100, 14);
             this.btnInductorValue.TabIndex = 1;
             this.btnInductorValue.Text = "-";
             this.btnInductorValue.UseVisualStyleBackColor = true;
@@ -387,9 +391,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCapacitor_680uFValue.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnCapacitor_680uFValue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCapacitor_680uFValue.Location = new System.Drawing.Point(99, 68);
+            this.btnCapacitor_680uFValue.Location = new System.Drawing.Point(99, 66);
             this.btnCapacitor_680uFValue.Name = "btnCapacitor_680uFValue";
-            this.btnCapacitor_680uFValue.Size = new System.Drawing.Size(100, 15);
+            this.btnCapacitor_680uFValue.Size = new System.Drawing.Size(100, 14);
             this.btnCapacitor_680uFValue.TabIndex = 1;
             this.btnCapacitor_680uFValue.Text = "-";
             this.btnCapacitor_680uFValue.UseVisualStyleBackColor = true;
@@ -401,9 +405,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLedValue.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnLedValue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnLedValue.Location = new System.Drawing.Point(99, 89);
+            this.btnLedValue.Location = new System.Drawing.Point(99, 86);
             this.btnLedValue.Name = "btnLedValue";
-            this.btnLedValue.Size = new System.Drawing.Size(100, 15);
+            this.btnLedValue.Size = new System.Drawing.Size(100, 14);
             this.btnLedValue.TabIndex = 1;
             this.btnLedValue.Text = "-";
             this.btnLedValue.UseVisualStyleBackColor = true;
@@ -415,9 +419,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDiodeValue.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnDiodeValue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnDiodeValue.Location = new System.Drawing.Point(99, 110);
+            this.btnDiodeValue.Location = new System.Drawing.Point(99, 106);
             this.btnDiodeValue.Name = "btnDiodeValue";
-            this.btnDiodeValue.Size = new System.Drawing.Size(100, 15);
+            this.btnDiodeValue.Size = new System.Drawing.Size(100, 14);
             this.btnDiodeValue.TabIndex = 1;
             this.btnDiodeValue.Text = "-";
             this.btnDiodeValue.UseVisualStyleBackColor = true;
@@ -429,9 +433,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnJacksValue.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnJacksValue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnJacksValue.Location = new System.Drawing.Point(99, 131);
+            this.btnJacksValue.Location = new System.Drawing.Point(99, 126);
             this.btnJacksValue.Name = "btnJacksValue";
-            this.btnJacksValue.Size = new System.Drawing.Size(100, 15);
+            this.btnJacksValue.Size = new System.Drawing.Size(100, 14);
             this.btnJacksValue.TabIndex = 1;
             this.btnJacksValue.Text = "-";
             this.btnJacksValue.UseVisualStyleBackColor = true;
@@ -443,9 +447,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnQ1Value.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnQ1Value.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnQ1Value.Location = new System.Drawing.Point(99, 152);
+            this.btnQ1Value.Location = new System.Drawing.Point(99, 146);
             this.btnQ1Value.Name = "btnQ1Value";
-            this.btnQ1Value.Size = new System.Drawing.Size(100, 15);
+            this.btnQ1Value.Size = new System.Drawing.Size(100, 14);
             this.btnQ1Value.TabIndex = 1;
             this.btnQ1Value.Text = "-";
             this.btnQ1Value.UseVisualStyleBackColor = true;
@@ -457,9 +461,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnC1Value.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnC1Value.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnC1Value.Location = new System.Drawing.Point(99, 173);
+            this.btnC1Value.Location = new System.Drawing.Point(99, 166);
             this.btnC1Value.Name = "btnC1Value";
-            this.btnC1Value.Size = new System.Drawing.Size(100, 15);
+            this.btnC1Value.Size = new System.Drawing.Size(100, 14);
             this.btnC1Value.TabIndex = 1;
             this.btnC1Value.Text = "-";
             this.btnC1Value.UseVisualStyleBackColor = true;
@@ -471,9 +475,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnF2Value.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnF2Value.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnF2Value.Location = new System.Drawing.Point(99, 194);
+            this.btnF2Value.Location = new System.Drawing.Point(99, 186);
             this.btnF2Value.Name = "btnF2Value";
-            this.btnF2Value.Size = new System.Drawing.Size(100, 15);
+            this.btnF2Value.Size = new System.Drawing.Size(100, 14);
             this.btnF2Value.TabIndex = 1;
             this.btnF2Value.Text = "-";
             this.btnF2Value.UseVisualStyleBackColor = true;
@@ -488,9 +492,9 @@ namespace Eruka_final
             this.btnCamera.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCamera.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnCamera.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCamera.Location = new System.Drawing.Point(3, 425);
+            this.btnCamera.Location = new System.Drawing.Point(3, 426);
             this.btnCamera.Name = "btnCamera";
-            this.btnCamera.Size = new System.Drawing.Size(90, 26);
+            this.btnCamera.Size = new System.Drawing.Size(90, 25);
             this.btnCamera.TabIndex = 1;
             this.btnCamera.Text = "CAMERA";
             this.btnCamera.UseVisualStyleBackColor = false;
@@ -506,9 +510,9 @@ namespace Eruka_final
             this.btnCamstatus.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnCamstatus.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnCamstatus.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCamstatus.Location = new System.Drawing.Point(99, 425);
+            this.btnCamstatus.Location = new System.Drawing.Point(99, 426);
             this.btnCamstatus.Name = "btnCamstatus";
-            this.btnCamstatus.Size = new System.Drawing.Size(100, 26);
+            this.btnCamstatus.Size = new System.Drawing.Size(100, 25);
             this.btnCamstatus.TabIndex = 1;
             this.btnCamstatus.Text = "DISCONNECTED";
             this.btnCamstatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -524,9 +528,9 @@ namespace Eruka_final
             this.btnPLC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPLC.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnPLC.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnPLC.Location = new System.Drawing.Point(3, 404);
+            this.btnPLC.Location = new System.Drawing.Point(3, 406);
             this.btnPLC.Name = "btnPLC";
-            this.btnPLC.Size = new System.Drawing.Size(90, 15);
+            this.btnPLC.Size = new System.Drawing.Size(90, 14);
             this.btnPLC.TabIndex = 1;
             this.btnPLC.Text = "PLC";
             this.btnPLC.UseVisualStyleBackColor = false;
@@ -543,9 +547,9 @@ namespace Eruka_final
             this.btnPLCStatus.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnPLCStatus.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnPLCStatus.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnPLCStatus.Location = new System.Drawing.Point(99, 404);
+            this.btnPLCStatus.Location = new System.Drawing.Point(99, 406);
             this.btnPLCStatus.Name = "btnPLCStatus";
-            this.btnPLCStatus.Size = new System.Drawing.Size(100, 15);
+            this.btnPLCStatus.Size = new System.Drawing.Size(100, 14);
             this.btnPLCStatus.TabIndex = 1;
             this.btnPLCStatus.Text = "DISCONNECTED";
             this.btnPLCStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -561,9 +565,9 @@ namespace Eruka_final
             this.btnTotal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTotal.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnTotal.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnTotal.Location = new System.Drawing.Point(3, 383);
+            this.btnTotal.Location = new System.Drawing.Point(3, 386);
             this.btnTotal.Name = "btnTotal";
-            this.btnTotal.Size = new System.Drawing.Size(90, 15);
+            this.btnTotal.Size = new System.Drawing.Size(90, 14);
             this.btnTotal.TabIndex = 1;
             this.btnTotal.Text = "TOTAL";
             this.btnTotal.UseVisualStyleBackColor = false;
@@ -578,9 +582,9 @@ namespace Eruka_final
             this.btnFail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFail.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnFail.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnFail.Location = new System.Drawing.Point(3, 362);
+            this.btnFail.Location = new System.Drawing.Point(3, 366);
             this.btnFail.Name = "btnFail";
-            this.btnFail.Size = new System.Drawing.Size(90, 15);
+            this.btnFail.Size = new System.Drawing.Size(90, 14);
             this.btnFail.TabIndex = 1;
             this.btnFail.Text = "FAIL";
             this.btnFail.UseVisualStyleBackColor = false;
@@ -595,9 +599,9 @@ namespace Eruka_final
             this.btnPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPass.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnPass.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnPass.Location = new System.Drawing.Point(3, 341);
+            this.btnPass.Location = new System.Drawing.Point(3, 346);
             this.btnPass.Name = "btnPass";
-            this.btnPass.Size = new System.Drawing.Size(90, 15);
+            this.btnPass.Size = new System.Drawing.Size(90, 14);
             this.btnPass.TabIndex = 1;
             this.btnPass.Text = "PASS";
             this.btnPass.UseVisualStyleBackColor = false;
@@ -609,9 +613,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnTotalValue.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnTotalValue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnTotalValue.Location = new System.Drawing.Point(99, 383);
+            this.btnTotalValue.Location = new System.Drawing.Point(99, 386);
             this.btnTotalValue.Name = "btnTotalValue";
-            this.btnTotalValue.Size = new System.Drawing.Size(100, 15);
+            this.btnTotalValue.Size = new System.Drawing.Size(100, 14);
             this.btnTotalValue.TabIndex = 1;
             this.btnTotalValue.Text = "-";
             this.btnTotalValue.UseVisualStyleBackColor = true;
@@ -623,9 +627,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnFailValue.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnFailValue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnFailValue.Location = new System.Drawing.Point(99, 362);
+            this.btnFailValue.Location = new System.Drawing.Point(99, 366);
             this.btnFailValue.Name = "btnFailValue";
-            this.btnFailValue.Size = new System.Drawing.Size(100, 15);
+            this.btnFailValue.Size = new System.Drawing.Size(100, 14);
             this.btnFailValue.TabIndex = 1;
             this.btnFailValue.Text = "-";
             this.btnFailValue.UseVisualStyleBackColor = true;
@@ -637,9 +641,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPassValue.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnPassValue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnPassValue.Location = new System.Drawing.Point(99, 341);
+            this.btnPassValue.Location = new System.Drawing.Point(99, 346);
             this.btnPassValue.Name = "btnPassValue";
-            this.btnPassValue.Size = new System.Drawing.Size(100, 15);
+            this.btnPassValue.Size = new System.Drawing.Size(100, 14);
             this.btnPassValue.TabIndex = 1;
             this.btnPassValue.Text = "-";
             this.btnPassValue.UseVisualStyleBackColor = true;
@@ -651,9 +655,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCapacitor_2uF.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnCapacitor_2uF.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCapacitor_2uF.Location = new System.Drawing.Point(3, 215);
+            this.btnCapacitor_2uF.Location = new System.Drawing.Point(3, 206);
             this.btnCapacitor_2uF.Name = "btnCapacitor_2uF";
-            this.btnCapacitor_2uF.Size = new System.Drawing.Size(90, 15);
+            this.btnCapacitor_2uF.Size = new System.Drawing.Size(90, 14);
             this.btnCapacitor_2uF.TabIndex = 2;
             this.btnCapacitor_2uF.Text = "Capacitor-2uF";
             this.btnCapacitor_2uF.UseVisualStyleBackColor = true;
@@ -665,9 +669,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCapacitor_2uFValue.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnCapacitor_2uFValue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCapacitor_2uFValue.Location = new System.Drawing.Point(99, 215);
+            this.btnCapacitor_2uFValue.Location = new System.Drawing.Point(99, 206);
             this.btnCapacitor_2uFValue.Name = "btnCapacitor_2uFValue";
-            this.btnCapacitor_2uFValue.Size = new System.Drawing.Size(100, 15);
+            this.btnCapacitor_2uFValue.Size = new System.Drawing.Size(100, 14);
             this.btnCapacitor_2uFValue.TabIndex = 3;
             this.btnCapacitor_2uFValue.Text = "-";
             this.btnCapacitor_2uFValue.UseVisualStyleBackColor = true;
@@ -679,9 +683,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCY1.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnCY1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCY1.Location = new System.Drawing.Point(3, 236);
+            this.btnCY1.Location = new System.Drawing.Point(3, 226);
             this.btnCY1.Name = "btnCY1";
-            this.btnCY1.Size = new System.Drawing.Size(90, 15);
+            this.btnCY1.Size = new System.Drawing.Size(90, 14);
             this.btnCY1.TabIndex = 4;
             this.btnCY1.Text = "CY1";
             this.btnCY1.UseVisualStyleBackColor = true;
@@ -693,9 +697,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCY1Value.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnCY1Value.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCY1Value.Location = new System.Drawing.Point(99, 236);
+            this.btnCY1Value.Location = new System.Drawing.Point(99, 226);
             this.btnCY1Value.Name = "btnCY1Value";
-            this.btnCY1Value.Size = new System.Drawing.Size(100, 15);
+            this.btnCY1Value.Size = new System.Drawing.Size(100, 14);
             this.btnCY1Value.TabIndex = 5;
             this.btnCY1Value.Text = "-";
             this.btnCY1Value.UseVisualStyleBackColor = true;
@@ -707,9 +711,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnTransistor.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnTransistor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnTransistor.Location = new System.Drawing.Point(3, 257);
+            this.btnTransistor.Location = new System.Drawing.Point(3, 246);
             this.btnTransistor.Name = "btnTransistor";
-            this.btnTransistor.Size = new System.Drawing.Size(90, 15);
+            this.btnTransistor.Size = new System.Drawing.Size(90, 14);
             this.btnTransistor.TabIndex = 6;
             this.btnTransistor.Text = "Transistor";
             this.btnTransistor.UseVisualStyleBackColor = true;
@@ -721,9 +725,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnTransistorValue.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnTransistorValue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnTransistorValue.Location = new System.Drawing.Point(99, 257);
+            this.btnTransistorValue.Location = new System.Drawing.Point(99, 246);
             this.btnTransistorValue.Name = "btnTransistorValue";
-            this.btnTransistorValue.Size = new System.Drawing.Size(100, 15);
+            this.btnTransistorValue.Size = new System.Drawing.Size(100, 14);
             this.btnTransistorValue.TabIndex = 7;
             this.btnTransistorValue.Text = "-";
             this.btnTransistorValue.UseVisualStyleBackColor = true;
@@ -735,9 +739,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnChargingJack.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnChargingJack.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnChargingJack.Location = new System.Drawing.Point(3, 278);
+            this.btnChargingJack.Location = new System.Drawing.Point(3, 286);
             this.btnChargingJack.Name = "btnChargingJack";
-            this.btnChargingJack.Size = new System.Drawing.Size(90, 15);
+            this.btnChargingJack.Size = new System.Drawing.Size(90, 14);
             this.btnChargingJack.TabIndex = 8;
             this.btnChargingJack.Text = "Charging Jack";
             this.btnChargingJack.UseVisualStyleBackColor = true;
@@ -749,9 +753,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnChargingJackValue.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnChargingJackValue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnChargingJackValue.Location = new System.Drawing.Point(99, 278);
+            this.btnChargingJackValue.Location = new System.Drawing.Point(99, 286);
             this.btnChargingJackValue.Name = "btnChargingJackValue";
-            this.btnChargingJackValue.Size = new System.Drawing.Size(100, 15);
+            this.btnChargingJackValue.Size = new System.Drawing.Size(100, 14);
             this.btnChargingJackValue.TabIndex = 9;
             this.btnChargingJackValue.Text = "-";
             this.btnChargingJackValue.UseVisualStyleBackColor = true;
@@ -763,9 +767,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnScrewHole.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnScrewHole.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnScrewHole.Location = new System.Drawing.Point(3, 299);
+            this.btnScrewHole.Location = new System.Drawing.Point(3, 306);
             this.btnScrewHole.Name = "btnScrewHole";
-            this.btnScrewHole.Size = new System.Drawing.Size(90, 15);
+            this.btnScrewHole.Size = new System.Drawing.Size(90, 14);
             this.btnScrewHole.TabIndex = 10;
             this.btnScrewHole.Text = "Screw hole";
             this.btnScrewHole.UseVisualStyleBackColor = true;
@@ -777,9 +781,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnScrewHoleValue.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnScrewHoleValue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnScrewHoleValue.Location = new System.Drawing.Point(99, 299);
+            this.btnScrewHoleValue.Location = new System.Drawing.Point(99, 306);
             this.btnScrewHoleValue.Name = "btnScrewHoleValue";
-            this.btnScrewHoleValue.Size = new System.Drawing.Size(100, 15);
+            this.btnScrewHoleValue.Size = new System.Drawing.Size(100, 14);
             this.btnScrewHoleValue.TabIndex = 11;
             this.btnScrewHoleValue.Text = "-";
             this.btnScrewHoleValue.UseVisualStyleBackColor = true;
@@ -791,9 +795,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnScrewHole1.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnScrewHole1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnScrewHole1.Location = new System.Drawing.Point(3, 320);
+            this.btnScrewHole1.Location = new System.Drawing.Point(3, 326);
             this.btnScrewHole1.Name = "btnScrewHole1";
-            this.btnScrewHole1.Size = new System.Drawing.Size(90, 15);
+            this.btnScrewHole1.Size = new System.Drawing.Size(90, 14);
             this.btnScrewHole1.TabIndex = 12;
             this.btnScrewHole1.Text = "Screw hole1";
             this.btnScrewHole1.UseVisualStyleBackColor = true;
@@ -805,9 +809,9 @@ namespace Eruka_final
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnScrewHole1Value.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
             this.btnScrewHole1Value.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnScrewHole1Value.Location = new System.Drawing.Point(99, 320);
+            this.btnScrewHole1Value.Location = new System.Drawing.Point(99, 326);
             this.btnScrewHole1Value.Name = "btnScrewHole1Value";
-            this.btnScrewHole1Value.Size = new System.Drawing.Size(100, 15);
+            this.btnScrewHole1Value.Size = new System.Drawing.Size(100, 14);
             this.btnScrewHole1Value.TabIndex = 13;
             this.btnScrewHole1Value.Text = "-";
             this.btnScrewHole1Value.UseVisualStyleBackColor = true;
@@ -834,7 +838,7 @@ namespace Eruka_final
             this.layoutHeader.ColumnCount = 3;
             this.layoutHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 82.98193F));
             this.layoutHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.01807F));
-            this.layoutHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 120F));
+            this.layoutHeader.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 123F));
             this.layoutHeader.Controls.Add(this.panelUserAvatar, 2, 0);
             this.layoutHeader.Controls.Add(this.lblName, 1, 0);
             this.layoutHeader.Controls.Add(this.lblUser, 1, 1);
@@ -853,10 +857,10 @@ namespace Eruka_final
             this.panelUserAvatar.BackgroundImage = global::Eruka_final.Properties.Resources.userManger;
             this.panelUserAvatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panelUserAvatar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelUserAvatar.Location = new System.Drawing.Point(545, 3);
+            this.panelUserAvatar.Location = new System.Drawing.Point(542, 3);
             this.panelUserAvatar.Name = "panelUserAvatar";
             this.layoutHeader.SetRowSpan(this.panelUserAvatar, 2);
-            this.panelUserAvatar.Size = new System.Drawing.Size(115, 28);
+            this.panelUserAvatar.Size = new System.Drawing.Size(118, 28);
             this.panelUserAvatar.TabIndex = 0;
             // 
             // lblName
@@ -865,7 +869,7 @@ namespace Eruka_final
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblName.Location = new System.Drawing.Point(480, 0);
+            this.lblName.Location = new System.Drawing.Point(477, 0);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(59, 17);
             this.lblName.TabIndex = 1;
@@ -878,7 +882,7 @@ namespace Eruka_final
             this.lblUser.AutoSize = true;
             this.lblUser.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblUser.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblUser.Location = new System.Drawing.Point(470, 17);
+            this.lblUser.Location = new System.Drawing.Point(467, 17);
             this.lblUser.Name = "lblUser";
             this.lblUser.Size = new System.Drawing.Size(69, 17);
             this.lblUser.TabIndex = 1;
@@ -893,11 +897,39 @@ namespace Eruka_final
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(663, 454);
             this.webBrowser1.TabIndex = 4;
-            this.webBrowser1.Url = new System.Uri("http://192.168.105.91:8087/", System.UriKind.Absolute);
+            this.webBrowser1.Url = new System.Uri("http://192.168.137.190:8087/", System.UriKind.Absolute);
             // 
             // timerCheckStautusDevice
             // 
             this.timerCheckStautusDevice.Tick += new System.EventHandler(this.TimerCheckStautusDevice_Tick);
+            // 
+            // btnEC2
+            // 
+            this.btnEC2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEC2.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
+            this.btnEC2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnEC2.Location = new System.Drawing.Point(3, 266);
+            this.btnEC2.Name = "btnEC2";
+            this.btnEC2.Size = new System.Drawing.Size(90, 14);
+            this.btnEC2.TabIndex = 14;
+            this.btnEC2.Text = "EC2";
+            this.btnEC2.UseVisualStyleBackColor = true;
+            // 
+            // btnEC2Value
+            // 
+            this.btnEC2Value.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEC2Value.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
+            this.btnEC2Value.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnEC2Value.Location = new System.Drawing.Point(99, 266);
+            this.btnEC2Value.Name = "btnEC2Value";
+            this.btnEC2Value.Size = new System.Drawing.Size(100, 14);
+            this.btnEC2Value.TabIndex = 15;
+            this.btnEC2Value.Text = "-";
+            this.btnEC2Value.UseVisualStyleBackColor = true;
             // 
             // FormHome
             // 
@@ -909,6 +941,7 @@ namespace Eruka_final
             this.Name = "FormHome";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FormHome_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.layoutLogo.ResumeLayout(false);
             this.layoutMenu.ResumeLayout(false);
@@ -972,6 +1005,8 @@ namespace Eruka_final
         private System.Windows.Forms.Button btnScrewHole1;
         private System.Windows.Forms.Button btnScrewHole1Value;
         private System.Windows.Forms.Timer timerCheckStautusDevice;
+        private System.Windows.Forms.Button btnEC2;
+        private System.Windows.Forms.Button btnEC2Value;
     }
 }
 
