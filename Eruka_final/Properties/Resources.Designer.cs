@@ -83,9 +83,9 @@ namespace Eruka_final.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap camera_connected {
+        public static System.Drawing.Bitmap Cam_Connected {
             get {
-                object obj = ResourceManager.GetObject("camera_connected", resourceCulture);
+                object obj = ResourceManager.GetObject("Cam_Connected", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,19 +93,9 @@ namespace Eruka_final.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap camera_disconnected {
+        public static System.Drawing.Bitmap Cam_Disconnected {
             get {
-                object obj = ResourceManager.GetObject("camera_disconnected", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap connected_plc {
-            get {
-                object obj = ResourceManager.GetObject("connected_plc", resourceCulture);
+                object obj = ResourceManager.GetObject("Cam_Disconnected", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

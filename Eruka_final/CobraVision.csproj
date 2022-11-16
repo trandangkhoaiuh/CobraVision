@@ -191,5 +191,17 @@
   <ItemGroup>
     <None Include="Resources\PLC_CONNECTED.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-disconnected-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-connected-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon8_Cam1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon8_Cam.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

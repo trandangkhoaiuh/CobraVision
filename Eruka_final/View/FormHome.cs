@@ -13,7 +13,7 @@ namespace Eruka_final
 {
     public partial class FormHome : Form
     {
-        //readonly MxComponent PLC = new MxComponent(3);
+        readonly MxComponent PLC = new MxComponent(3);
         readonly CameraProcessing Cam = new CameraProcessing();
 
         public FormHome()
@@ -68,29 +68,33 @@ namespace Eruka_final
         }
         private void TimerCheckStautusDevice_Tick(object sender, EventArgs e)
         {
-            //if (PLC.IsOnline())
-            //{
-            //    btnPLCStatus.Text = "CONNECTED";
-            //    btnPLCStatus.Image = Eruka_final.Properties.Resources.PLC_CONNECTED;
-            //}
-            //else
-            //{
-            //    btnPLCStatus.Text = "DISCONNECTED";
-            //    btnPLCStatus.Image = Eruka_final.Properties.Resources.disconected_plc;
-            //}
+            if (PLC.IsOnline())
+            {
+                btnPLCStatus.Text = "CONNECTED";
+                btnPLCStatus.Image = Eruka_final.Properties.Resources.PLC_CONNECTED;
+            }
+            else
+            {
+                btnPLCStatus.Text = "DISCONNECTED";
+                btnPLCStatus.Image = Eruka_final.Properties.Resources.disconected_plc;
+            }
             if (Cam.Result)
             {
                 SetLabelText(btnCamstatus, "CONNECTED");
+                btnCamstatus.Image = Eruka_final.Properties.Resources.Cam_Connected;
             }
             else
             {
                 SetLabelText(btnCamstatus, "DISCONNECTED");
+                btnCamstatus.Image = Eruka_final.Properties.Resources.Cam_Disconnected;
             }
             if(Cam.x==1)
             { 
                 ActionCameraResult(Cam.CheckRight); 
             }    
             Set();
+            PLC.SetDevice("D200", Cam.PlcCase);
+            //btnPLCStatus.Text = Convert.ToString(Cam.PlcCase);
         }
 
         private void BtnLogoCobra_Click(object sender, EventArgs e)
@@ -147,7 +151,7 @@ namespace Eruka_final
                 btnStatus.ForeColor = Color.Red;
                 SetButtonText(btnStatus, "FAIL");
             }
-            CountTotalstring =Cam.countTotal.ToString();
+            CountTotalstring = Cam.countTotal.ToString();
             CountPassstring = Cam.countPass.ToString();
             CountFailstring = Cam.countFail.ToString();
         }
